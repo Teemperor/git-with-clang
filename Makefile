@@ -640,7 +640,7 @@ perllibdir_relative = $(patsubst $(prefix)/%,%,$(perllibdir))
 export prefix bindir sharedir sysconfdir perllibdir localedir
 
 # Set our default programs
-CC = ${CC}
+CC = clang
 AR = ar
 RM = rm -f
 DIFF = diff
